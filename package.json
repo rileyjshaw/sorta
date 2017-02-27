@@ -1,0 +1,44 @@
+{
+  "name": "sorta",
+  "version": "1.0.0",
+  "description": "Sort a list interactively",
+  "main": "index.js",
+  "devDependencies": {
+    "gh-pages": "^0.12.0",
+    "react-scripts": "0.9.0"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-balance-text": "^1.0.1",
+    "react-dom": "^15.4.2",
+    "timsort": "rileyjshaw/node-timsort-async#072f34f4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "react-scripts build",
+    "deploy" : "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rileyjshaw/sorta.git"
+  },
+  "keywords": [
+    "sort",
+    "order",
+    "timsort",
+    "merge",
+    "interactive",
+    "manual",
+    "async",
+    "asynchronous"
+  ],
+  "author": "rileyjshaw <i@rileyjshaw.com> (http://rileyjshaw.com)",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/rileyjshaw/sorta/issues"
+  },
+  "homepage": "http://rileyjshaw.com/sorta"
+}

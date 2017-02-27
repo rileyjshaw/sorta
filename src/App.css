@@ -1,0 +1,42 @@
+.main, .panels, .panel {
+	display: flex;
+	height: 100%;
+}
+
+.main, .panels {
+	width: 100%;
+}
+
+.main {
+	flex-direction: column;
+}
+
+.panels {
+	align-items: center;
+	background: #fafafa;
+	box-shadow: 0 0 24px rgba(0, 0, 0, 0.1);
+}
+
+.panel {
+	padding: 0 10%;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 1;
+	flex-basis: 0;
+	font-size: 36px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.divider {
+	width: 1px;
+	height: 60%;
+	background-image: linear-gradient(to top, #fff, #ccc, #fff)
+}
+
+footer {
+	font-size: 0.5em;
+	padding: 1em;
+	text-align: center;
+	color: #888;
+}
